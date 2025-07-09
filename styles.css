@@ -1,0 +1,62 @@
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background: linear-gradient(135deg, #ff00ff, #00ffd0);
+  color: #000;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+#controls {
+  margin-bottom: 20px;
+}
+.card {
+  position: relative;
+  width: 320px;
+  height: 200px;
+  margin: auto;
+  background: linear-gradient(45deg, #ffc107, #40e0d0);
+  border: 5px dashed #000;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  overflow: hidden;
+}
+.profile {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 80px;
+  height: 80px;
+  background: #fff;
+  border: 3px solid #ff00ff;
+  object-fit: cover;
+}
+.text {
+  padding: 2px 5px;
+  background: rgba(255,255,255,0.7);
+  border: 1px dotted #000;
+  cursor: move;
+}
+#name {
+  position: absolute;
+  top: 10px;
+  left: 100px;
+}
+#bio {
+  position: absolute;
+  top: 60px;
+  left: 100px;
+  width: 200px;
+}
+#contact {
+  position: absolute;
+  top: 120px;
+  left: 100px;
+  width: 200px;
+}
+.sticker {
+  position: absolute;
+  padding: 5px 10px;
+  background: hotpink;
+  color: white;
+  border-radius: 5px;
+  cursor: move;
+}

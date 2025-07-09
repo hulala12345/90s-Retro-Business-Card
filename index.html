@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>90s Retro Business Card</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="controls">
+  <label>Name: <input id="nameInput" type="text" placeholder="Your Name"></label>
+  <label>Bio: <input id="bioInput" type="text" placeholder="Short Bio"></label>
+  <label>Contact: <input id="contactInput" type="text" placeholder="Contact"></label>
+  <label>Upload Image: <input id="imageUpload" type="file" accept="image/*"></label>
+  <button id="addSticker">Add Sticker</button>
+  <button id="reset">Reset</button>
+  <button id="download">Download</button>
+</div>
+
+<div id="card" class="card">
+  <img id="profileImage" class="profile" src="" alt="Profile">
+  <div id="name" class="draggable text" contenteditable="true">Your Name</div>
+  <div id="bio" class="draggable text" contenteditable="true">Short Bio</div>
+  <div id="contact" class="draggable text" contenteditable="true">Contact Info</div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
